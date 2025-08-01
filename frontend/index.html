@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Wasted Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>⏳ Time Wasted Tracker</h1>
+
+  <form id="sessionForm">
+    <label>Username: <input type="text" id="username" required></label><br>
+    <label>Activity: <input type="text" id="activity" required></label><br>
+    <label>Duration (in minutes): <input type="number" id="duration" required></label><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>🔥 Past Sessions:</h2>
+  <div id="result" style="margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
